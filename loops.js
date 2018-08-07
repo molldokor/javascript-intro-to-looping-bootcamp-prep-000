@@ -22,6 +22,6 @@ function doWhileLoop(array) {
     i = i + 1;
   }
   do {
-    array.splice(0, i)
+    array.shift();
   }
 }
