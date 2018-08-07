@@ -23,7 +23,7 @@ function doWhileLoop(array) {
     i = i + 1;
   }
   do {
-    array = array.slice(i);
+    array = array.shift();
     incrementVariable();
   } while (array.length > 0 && incrementVariable());
 }
